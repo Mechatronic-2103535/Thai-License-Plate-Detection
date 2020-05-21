@@ -1,5 +1,5 @@
 ## Introduction
-First of all this is my first github writing so i might explaine some thing quite weird i sorry from here LOL. For someone who begin to make something like this don't worry i will walk you though step by step
+First of all this is my first github writing so i might explaine something quite weird i sorry from here LOL. For someone who begin to make something like this don't worry i will walk you though step by step (If you have any question you can ask me thought my email Thanapol.ds@gmail.com I will try my best to answers all your questions
 
 ## Requirements
 
