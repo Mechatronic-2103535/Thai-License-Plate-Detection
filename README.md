@@ -41,7 +41,7 @@ Getting start with code:
     ```
     
   4. import all necessary lib
-     ```
+   ```
    import tensorflow as tf
    import numpy as np
    import cv2
@@ -50,7 +50,7 @@ Getting start with code:
    %matplotlib inline
    import matplotlib.pyplot as plt
    from darkflow.net.build import TFNet
-    ```
+   ```
     
   5. Load Img and anontation up to where your clip or video is placed for me
    ```
