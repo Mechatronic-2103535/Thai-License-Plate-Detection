@@ -1,0 +1,7 @@
+if (datasources["Field3_readfield"]["feeds"][0]["field3"]=="1"){
+    return datasources["Field4_readfield"]["feeds"][0]["field3"] // get the parking slot for field3 car 
+}else if (datasources["Field3_readfield"]["feeds"][0]["field3"]==null){
+    return "error, please refresh"
+}else if (datasources["Field3_readfield"]["feeds"][0]["field3"]=="0"){
+    return "you've left the parking slot"
+}
