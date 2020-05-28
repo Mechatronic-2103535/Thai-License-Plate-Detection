@@ -1,0 +1,8 @@
+var x ="1"
+if (datasources["Field3_readfield"]["feeds"][0]["field3"]==x){
+    var price = datasources["timeentryfield3"]["last_data_age"]/60
+    var price2 = price
+    return price2.toFixed(2)
+}else{
+    return ('total',price2.toFixed(2))
+}
