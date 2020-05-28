@@ -1,0 +1,26 @@
+var x ="1"
+var y = "0"
+//this part is to get the time stamp of entering by getting the index string 
+var x1 = datasources["Field1_readfield"]["feeds"][0]["created_at"][11]
+var x2 = datasources["Field1_readfield"]["feeds"][0]["created_at"][12]
+var x3 = datasources["Field1_readfield"]["feeds"][0]["created_at"][13]
+var x4 = datasources["Field1_readfield"]["feeds"][0]["created_at"][14]
+var x5 = datasources["Field1_readfield"]["feeds"][0]["created_at"][15]
+var x6 = datasources["Field1_readfield"]["feeds"][0]["created_at"][16]
+var x7 = datasources["Field1_readfield"]["feeds"][0]["created_at"][17]
+var x8 = datasources["Field1_readfield"]["feeds"][0]["created_at"][18]
+var y1 = datasources["field1_read_2results"]["feeds"][0]["created_at"][11]
+var y2 = datasources["field1_read_2results"]["feeds"][0]["created_at"][12]
+var y3 = datasources["field1_read_2results"]["feeds"][0]["created_at"][13]
+var y4 = datasources["field1_read_2results"]["feeds"][0]["created_at"][14]
+var y5 = datasources["field1_read_2results"]["feeds"][0]["created_at"][15]
+var y6 = datasources["field1_read_2results"]["feeds"][0]["created_at"][16]
+var y7 = datasources["field1_read_2results"]["feeds"][0]["created_at"][17]
+var y8 = datasources["field1_read_2results"]["feeds"][0]["created_at"][18]
+if (datasources["Field1_readfield"]["feeds"][0]["field1"]== x){    #incase that 
+    return x1+x2+x3+x4+x5+x6+x7+x8 //combine the string index to make the complete time
+}else if(datasources["Field1_readfield"]["feeds"][0]["field1"]== y) {
+    return y1+y2+y3+y4+y5+y6+y7+y8
+}else{
+    return "time out"
+}
