@@ -1,0 +1,8 @@
+var x="1"
+if(datasources["Field3_readfield"]["feeds"][0]["field3"]==x){
+    var time = datasources["timeentryfield3"]["last_data_age"]/3600  // get the time since last update came in 
+    var time2 =time
+	return time2.toFixed(2)  // limit the decimal 
+}else{
+    return ("you used",time2.toFixed(2))
+}
