@@ -1,0 +1,18 @@
+var x ="0"
+var y = "1"
+//this part is to get the leaving time by string index of jason value
+var x1 = datasources["Field3_readfield"]["feeds"][0]["created_at"][11]
+var x2 = datasources["Field3_readfield"]["feeds"][0]["created_at"][12]
+var x3 = datasources["Field3_readfield"]["feeds"][0]["created_at"][13]
+var x4 = datasources["Field3_readfield"]["feeds"][0]["created_at"][14]
+var x5 = datasources["Field3_readfield"]["feeds"][0]["created_at"][15]
+var x6 = datasources["Field3_readfield"]["feeds"][0]["created_at"][16]
+var x7 = datasources["Field3_readfield"]["feeds"][0]["created_at"][17]
+var x8 = datasources["Field3_readfield"]["feeds"][0]["created_at"][18]
+if (datasources["Field3_readfield"]["feeds"][0]["field3"]==x){
+    return x1+x2+x3+x4+x5+x6+x7+x8  //combine the string to complete the time 
+}else if (datasources["Field3_readfield"]["feeds"][0]["field3"]==y){
+    return 'still shopping'
+}else{
+    return "time out"
+}
